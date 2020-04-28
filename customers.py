@@ -1,6 +1,4 @@
 # Customers.py
-
-
 # import calendar
 import datetime
 from datetime import datetime,date,timedelta
@@ -12,10 +10,10 @@ import smtplib, ssl
 #for ssl 
 # port = 465
 # smtp_server = "smtp.gmail.com"
-# sender_email = "neepssystemandsales@gmail.com"
-# receiver_email = "pranav.chandran@gmail.com"
+# sender_email = "xxxxxxxxxxx@gmail.com"
+# receiver_email = "xxxxxxxxxx@gmail.com"
 
-# password = '9656888140'
+# password = 'xxxxxxxxxx'
 
 
 # def split(customers,products):
@@ -56,29 +54,24 @@ def split():
 
     #     print(y)
         # print(details)
-
-
-    
+        
     # for y,x in joineddate,customers:
     #     print([x],y)
     # print(joineddate,customers)
     return split
-
 split()
-
-
-    
+ 
 def days(year,month,day,*customers):
     
     # year = int(input('2020'))
     # month = int(input('5'))
     # day = int(input('24'))
 
-    smtp_server = "smtp.gmail.com"
-    sender_email = "neepssystemandsales@gmail.com"
-    receiver_email = "pranav.chandran@gmail.com"
+    smtp_server = ""
+    sender_email = ""
+    receiver_email = ""
 
-    password = '9656888140'
+    password = ''
     today = date.today()
     date1 = date(year,month,day)
     # date1 = date(2020, 4, 24)
@@ -114,9 +107,6 @@ while True:
     # time.sleep(10.0 - ((time.time() - starttime) % 10.0))
     days(2020,4,24,'pranav')
     days(2020,4,23,'Athul')
-
-
-
 
 
 # format year month date
